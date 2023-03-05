@@ -632,7 +632,12 @@ body.night .modal-header .top {
 body.night .cntList h5 {
     color: #0d0925;
 }
-
+body.night section.two .sectionRight .top > p {
+    color: #999;
+}
+body.night section.two .sectionRight .top > p > span:nth-of-type(1) {
+    color: #666;
+}
 /* night version END */
 
 /* modal 공통 CSS START */
@@ -1741,6 +1746,9 @@ body.night .cntList h5 {
     }
     .fontBox .txt li {
         font-size: 20px;
+    }
+    section.two .sectionRight .top > p {
+        display: none;
     }
 }
 
