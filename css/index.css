@@ -318,7 +318,7 @@ section.two .sectionRight .bottom > div {
 }
 .bar .bar-info span {
     float: left;
-    line-height: 1;
+    /* line-height: 1; */
 }
 .bar .bar-info .percent {
     float: right;
@@ -472,6 +472,7 @@ section.two .sectionRight .bottom .bottomRight table th {
 /* section 03 START */
 section.three {
     padding: 20px;
+    overflow-y: auto;
 }
 .blog-slider {
     width: 100%;
@@ -1518,6 +1519,7 @@ body.night section.two .sectionRight .top > p > span:nth-of-type(1) {
         display: none;
     }
     section.two .sectionRight {
+        height: 100vh;
         padding: 20px;
         align-content: flex-start;
     }
