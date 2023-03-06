@@ -398,6 +398,8 @@ section.two .sectionRight .bottom .bottomLeft li {
 }
 section.two .sectionRight .bottom .bottomLeft span {
     margin-right: 20px;
+    display: inline-block;
+    line-height: 1;
 }
 section.two .sectionRight .bottom .bottomLeft div:nth-of-type(1) span:nth-of-type(1) {
     background: linear-gradient(45deg,#f6d365, #fda085);
